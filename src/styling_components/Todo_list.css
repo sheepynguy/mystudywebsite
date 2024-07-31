@@ -1,0 +1,79 @@
+.form-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.task-form {
+    display: flex;
+    flex: row;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+#todo {
+    border: none;
+    width: 320px;
+    height: 30px;
+
+    border-radius: 10px;
+}
+
+#priority {
+    border: none;
+    height: 25px;
+    width: 100px;
+    margin-top: 3px;
+
+    border-radius: 5px;
+}
+
+#courses {
+    border: none;
+    height: 25px;
+    width: 100px;
+    margin-top: 3px;
+
+    border-radius: 5px;
+}
+
+.submit-button {
+    position: relative;
+    left: 50px;
+    height: 100%;
+    
+}
+
+.todo_list {
+    height: 539px;
+    overflow: auto;
+}
+
+
+.todo_item {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 2px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item p {
+    margin-left: 5px;
+}
+
+.item-features {
+    display: flex;
+    flex: row;
+    margin-left: 20px;
+}
+
+.delete-item {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+

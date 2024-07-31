@@ -1,0 +1,72 @@
+.stopwatch-component {
+    position: absolute;
+    width: 600px;
+    padding: 3em 0em 2em 0em;
+    top: 5px;
+    left: 5px;
+
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    background-color: #F5E8A3;
+    
+}
+
+.timer-component {
+    position: absolute;
+    top: 245px;
+    left: 5px;
+    width: 600px;
+    padding: 8em 0em 12em 0em;
+
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    background-color: #F5E8A3;
+}
+
+.youtube-player {
+    position: absolute;
+    top: 570px;
+    left: 5px;
+}
+
+.youtube-player iframe {
+    border-radius: 30px;
+}
+
+.playlist {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 470px;
+}
+.playlist iframe {
+    width: 30em;
+    height: 100%;
+}
+
+
+.todo-component {
+    position: absolute;
+    right: 0;
+    top: 480px;
+    right: 5px;
+    height: 685px;
+    
+    
+    /* border: 1px solid black; */
+    background-color: #E6E6E6;
+    width: 30em;
+    border-radius: 15px;
+    
+}
+
+html {
+    background-color: #C47992;
+}
+
+
+.home-page {
+    position: relative;
+    width: 2035px;
+}
+
